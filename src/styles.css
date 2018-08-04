@@ -17,11 +17,11 @@ body {
 }
 
 .app {
+  padding-top: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
 }
 
 .size1 {
