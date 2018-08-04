@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 6vw;
+  }
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.size1 {
+  font-size: 2em;
+}
+.size2 {
+  font-size: 1.7em;
+}
+
+.app {
+  flex: 1;
+}
+
+.app div {
+  margin-top: 40px;
+}
+
+.app .credits {
+  margin-top: 60px;
+  height: 1.3em;
+}
+
+.credits a {
+  color: white;
+}
